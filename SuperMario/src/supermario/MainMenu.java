@@ -16,7 +16,7 @@ public class MainMenu implements Updatable {
 
     public MainMenu (SceneManager sm)
     {
-        this.width = sm.getHeight();
+        this.width = sm.getWidth();
         this.height = sm.getHeight();
         
         // Main canvas
